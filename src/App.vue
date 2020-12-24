@@ -13,7 +13,7 @@
     active-text-color="#ffd04b"
     :unique-opened="true">
     <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">最新消息</a></el-menu-item>
-    <el-submenu :index="idnex">
+    <el-submenu :index="1">
       <template slot="title"><i class="el-icon-s-custom el-icon--left"></i>招生</template>
       <el-menu-item index="2-1">春之清華卓越獎學金</el-menu-item>
       <el-menu-item index="2-2">FB粉絲專頁</el-menu-item>
@@ -21,7 +21,7 @@
       <el-menu-item index="2-4">招生QnA</el-menu-item>
       <el-menu-item index="2-5">過往招生資訊</el-menu-item>
     </el-submenu>
-    <el-submenu :index="idnex">
+    <el-submenu :index="2">
       <template slot="title"><i class="el-icon-more el-icon--left"></i>關於科藝組</template>
       <el-menu-item index="2-1">科藝組簡介</el-menu-item>
       <el-menu-item index="2-2">科藝組課程</el-menu-item>
@@ -29,7 +29,7 @@
       <el-menu-item index="2-4">未來新建案</el-menu-item>
       <el-menu-item index="2-5">師資</el-menu-item>
     </el-submenu>
-    <el-submenu :index="idnex">
+    <el-submenu :index="3">
       <template slot="title"><i class="el-icon-menu el-icon--right"></i>作品賞析</template>
       <el-menu-item index="2-1">導師作品</el-menu-item>
       <el-menu-item index="2-2">學生作品</el-menu-item>
